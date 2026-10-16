@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/genm_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:proto_mighty_action_x_gashat"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

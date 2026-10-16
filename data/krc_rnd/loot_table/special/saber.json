@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:storm_eagle_wonder_ride_book_xross"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:lion_senki_wonder_ride_book_xross"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:saber_blank_2"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:brave_dragon_wonder_ride_book_xross"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:saber_blank_2",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex1": "kamenridercraft:brave_dragon_wonder_ride_book"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/seiken_swordriver_2",
+              "expand": true
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:saiyuu_journey_wonder_ride_book_xross"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:lamp_do_alngina_wonder_ride_book_xross"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:saber_blank_2"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:brave_dragon_wonder_ride_book_xross"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:saber_blank_3",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex1": "kamenridercraft:brave_dragon_wonder_ride_book"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/seiken_swordriver_3",
+              "expand": true
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

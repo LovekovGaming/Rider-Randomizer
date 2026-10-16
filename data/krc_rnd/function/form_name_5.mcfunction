@@ -1,0 +1,1 @@
+$data modify storage krc_rnd:form name set value "{\"translate\":\"$(belt)__$(form1)_$(form2)_$(form3)_$(form4)_$(form5)\"}"

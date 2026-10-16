@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:saber_blank_1",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex2": "kamenridercraft:lion_senki_wonder_ride_book"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/seiken_swordriver_1",
+              "expand": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:saber_blank_3",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex2": "kamenridercraft:lion_senki_wonder_ride_book"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/seiken_swordriver_3",
+              "expand": true
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

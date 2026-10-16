@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/command_form_jet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/command_form_cannon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/geats_boost_mkii"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/geats_laserboost"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/geats_oneness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/geats_random_form"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "slot_tex1": "kamenridercraft:geats_rider_core_id"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/geats_magnumboost"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "slot_tex1": "kamenridercraft:geats_rider_core_id"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

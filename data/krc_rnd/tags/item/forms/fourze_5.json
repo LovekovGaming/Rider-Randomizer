@@ -1,0 +1,15 @@
+{
+	"values": [
+		"kamenridercraft:fourze_basestates",
+		"kamenridercraft:fourze_elekstates",
+		"kamenridercraft:fourze_firestates",
+		"kamenridercraft:fourze_magnetstates",
+		"kamenridercraft:fourze_cosmicstates",
+		"kamenridercraft:fourze_meteor_fusionstates",
+		"kamenridercraft:fourze_meteor_nadeshiko_fusionstates",
+		"kamenridercraft:fourze_rocketstates",
+		"kamenridercraft:fourze_rocketdrillstates",
+		"kamenridercraft:fourze_launcherstates",
+		"kamenridercraft:shin_chan_switch"
+	]
+}

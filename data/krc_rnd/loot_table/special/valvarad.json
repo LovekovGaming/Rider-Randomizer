@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:gekiocopter_ride_chemy_card"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:gutsshovel_ride_chemy_card"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

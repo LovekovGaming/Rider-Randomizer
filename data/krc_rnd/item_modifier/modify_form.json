@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "krc_rnd:form"
+    },
+    "ops": [
+      {
+        "source": "form1",
+        "target": "slot_tex1",
+        "op": "replace"
+      },
+      {
+        "source": "form2",
+        "target": "slot_tex2",
+        "op": "replace"
+      },
+      {
+        "source": "form3",
+        "target": "slot_tex3",
+        "op": "replace"
+      },
+      {
+        "source": "form4",
+        "target": "slot_tex4",
+        "op": "replace"
+      },
+      {
+        "source": "form5",
+        "target": "slot_tex5",
+        "op": "replace"
+      },
+      {
+        "source": "form6",
+        "target": "slot_tex6",
+        "op": "replace"
+      },
+      {
+        "source": "form7",
+        "target": "slot_tex7",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "Update_form": true
+    }
+  }
+]

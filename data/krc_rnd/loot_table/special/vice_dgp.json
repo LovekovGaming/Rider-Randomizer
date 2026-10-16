@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/vice_dgp_rex"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/vice_dgp_random_form"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/command_form_jet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/command_form_cannon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/tycoon_bujin_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "krc_rnd:special/tycoon_random_form"
+        }
+      ]
+    }
+  ]
+}

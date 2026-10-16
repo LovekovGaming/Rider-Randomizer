@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:joker_memory"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/double_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex1": "kamenridercraft:xtreme_memory"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex1": "kamenridercraft:xtreme_gold_memory"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "feet": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "slot_tex1": "kamenridercraft:xtreme_accel_memory"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:skull_cyclone_memory",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:cyclone_memory"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

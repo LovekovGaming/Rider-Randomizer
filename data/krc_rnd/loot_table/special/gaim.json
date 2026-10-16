@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:jimber_gaim_core",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:jimber_lemon_energy"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:jimber_cherry_energy"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:jimber_peach_energy"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:jimber_melon_energy"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:jimber_dragon_fruits_energy"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:marron_energy_lockseed"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:gaim_yami",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:dark_lemon_energy_lockseed"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:basic_gaim_core"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

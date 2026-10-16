@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/specter_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                      "predicates": {
+                        "minecraft:custom_data": {
+                          "slot_tex1": "kamenridercraft:sin_specter_ghost_eyecon"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:specter_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:specter_ghost_eyecon"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:deep_specter_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:deep_specter_ghost_eyecon"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:deep_specter_damashii_gekikou",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:deep_specter_ghost_eyecon"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:sin_specter_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "slot_tex1": "kamenridercraft:sin_specter_ghost_eyecon"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

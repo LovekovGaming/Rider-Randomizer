@@ -1,0 +1,256 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ride_kamens_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/amazons_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/black_sun_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/gorider_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/the_series_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/shin_kamen_rider_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:g_belt"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ichigo_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/v3_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/x_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/amazon_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/stronger_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/skyrider_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/super_1_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/zx_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/black_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/black_rx_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/shin_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/zo_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:j_spirit"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/kuuga_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/agito_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ryuki_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/faiz_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/blade_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/hibiki_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/kabuto_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/den-o_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/kiva_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/decade_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/double_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ooo_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/fourze_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/wizard_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:gaim_belts",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/drive_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ghost_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/ex-aid_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/build_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/zi-o_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/zero-one_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/saber_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/revice_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/geats_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/gotchard_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/gavv_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/zeztz_armor",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kamenridercraft:belts/my_th_armor",
+          "expand": true
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:binding_curse": 1
+      }
+    }
+  ]
+}

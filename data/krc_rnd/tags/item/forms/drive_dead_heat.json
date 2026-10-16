@@ -1,0 +1,7 @@
+{
+	"values": [
+		"kamenridercraft:deadheatshift_drive_mach",
+		"kamenridercraft:tridoron_key",
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:basic_tire"}] run scoreboard players set @s toku.form2 0
+	]
+}

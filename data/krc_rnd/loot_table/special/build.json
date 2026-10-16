@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "krc_rnd:special/build_rabbittank"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "krc_rnd:special/build_hawkgatling"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "krc_rnd:special/build_kaizokuressha"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "krc_rnd:special/build_keydragon"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "krc_rnd:special/build_smaphowolf"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex3": "kamenridercraft:hazard_trigger"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/build_1",
+              "expand": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex3": "kamenridercraft:full_bottle"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/build_2",
+          "expand": true
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "slot_tex3": "kamenridercraft:full_bottle"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:legendary_legend",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:legendary_legend_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:kuuga_ultimate_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:agito_shining_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ryuki_survive_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:faiz_blaster_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:blade_king_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:armed_hibiki_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:kabuto_hyper_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:den_o_liner_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:kiva_emperor_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:decade_complete_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:w_cyclone_joker_xtreme_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ooo_putotyra_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:fourze_cosmic_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:wizard_infinity_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:gaim_kiwami_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:drive_tridoron_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ghost_mugen_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ex_aid_muteki_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:build_genius_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:grand_zi_o_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:zero_two_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:xross_saber_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ultimate_revi_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:ultimate_vice_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "slot_tex1": "kamenridercraft:geats_ix_ride_chemy_card"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:blank_form"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

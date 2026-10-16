@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "kamenridercraft:tridoron_all_tire",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:tridoronshift"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:basic_tire"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:attack123_tire"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:people_saver_tire"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:kouji_genbar_tire"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:tridoronshift_not_all"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:basic_tire"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:mantarn_f01"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:jacky_f02"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "kamenridercraft:sparner_f03"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "slot_tex1": "kamenridercraft:formulashift"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "name": "krc_rnd:forms/drive_2",
+              "expand": true
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

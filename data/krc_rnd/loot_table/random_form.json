@@ -1,0 +1,5366 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/amazon_alpha",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:amazons_driver_alpha"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/amazon_omega",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:amazons_driver_omega"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/amazon_sigma",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:amazons_driver_sigma"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/black_sun",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:century_king_sun_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/shadowmoon",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:century_king_moon_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/the_series_ichigo",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:the_typhoon_ichigo"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/loq",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:chaos_driver_loq"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ichigo",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:typhoon_ichigo"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/nigo",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:typhoon_nigo"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/sango",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:typhoon_sango"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/shocker_rider_no_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:typhoon_shocker_rider_1"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/shocker_combatman",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:shocker_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/v3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:double_typhoon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/riderman",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:riderman_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/apollogeist",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:apollogeist_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/amazon",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:condorer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/stronger",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:electrer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/tackle",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:tackle_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/skyrider",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:tornado"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/black",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:vital_charger"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/shadow_moon",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:shadow_charger"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/black_rx",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sun_riser"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kuuga",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:arcle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/krego",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:item_alias/krego_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/agito",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:alter_ring"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gills",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:meta_factor"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/another_agito_kouji_majima",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ank_point_burning"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ryuki",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_ryuki"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/knight",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_knight"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zolda",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_zolda"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/raia",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_raia"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ouja",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_ouja"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/odin",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_odin"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ryuga",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:v_buckle_ryuga"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/faiz",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:faiz_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kaixa",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:kaixa_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/psyga",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:psyga_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/riotrooper",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:smartbuckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/next_faiz",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:faiz_driver_next"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/next_kaixa",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:next_kaixa_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/blade",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:blay_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/garren",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:garren_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/chalice",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:chalice_rouzer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/leangle",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:leangle_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/undead",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:undead_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/hibiki",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:hibikidriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kabuto",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:kabuto_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gatack",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gatack_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/thebee",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:thebee_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/drake",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:drake_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/sasword",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sasword_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/dark_kabuto",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dark_kabuto_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/caucasus",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:caucasus_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/hercus",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:hercus_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ketaros",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ketaros_rider_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/den-o",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:den_o_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zeronos",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zeronos_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/new_den-o",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:new_den_o_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/yuuki",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:yuuki_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/dan-o",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dan_o_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kiva",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:kivadriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ixa",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ixa_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/rey",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:reydriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/arc",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:arcdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kiva-la",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:kivaladriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/decade",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:decadriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/neo_decade",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:neo_decadriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/diend",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:diend_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/dark_decade",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dark_decadriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/double_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:wdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/accel",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:acceldriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/skull",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lostdriver_skull"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/eternal",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lostdriver_eternal"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ooo_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ooodriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_x",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver_x"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:circle_astroswitch",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fourze_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/meteor",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:meteor_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/nadeshiko",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:nadeshiko_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/wizard",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:wizardriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/beast",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:beastdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gaim",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_gaim"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/baron",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_baron"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ryugen",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_ryugen"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zangetsu",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_zangetsu"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/sengoku_driver_jimber",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:sengoku_driver_jimber"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/bujin_gaim",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_bujin_gaim"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/saver",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_saver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/sengoku_driver",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:sengoku_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/genesis_driver",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:genesis_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/megahex",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:megahex"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/drive_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:drivedriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/mach_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mach_driver_honoh"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/chaser",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mach_driver_honoh_chaser"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/drive_dead_heat",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mach_driver_honoh_drive"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/mashin_chaser",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:break_gunner_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:speedshift",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fake_drivedriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ghost_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/specter_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:specter_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/necrom_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mega_ulorder"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dark_ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:zero_specter_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zero_specter_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:kanon_specter_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:kanon_specter_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_necrom_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_red"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_necrom_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_blue"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_necrom_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_yellow"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_necrom_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_pink"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:dark_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:new_ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:proto_ore_ghost_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zero_ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:transform_gamma_eyecon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_gamma_superior"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ex-aid_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_ex_aid"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/brave_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_brave"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/snipe_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_snipe"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/lazer_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_lazer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/genm_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_genmu"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/para-dx_gamer_driver",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_paradx"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/genm_zombie",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gashacon_bugvisor_genmu"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/graphite_bugster",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:item_alias/gashacon_bugvisor_graphite"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/cronus",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gashacon_bugvisor_ii_chronos"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/poppy",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gashacon_bugvisor_ii_poppy"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/para-dx",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:paradoxbelt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:rabbit_full_bottle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:build_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/cross-z",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:build_driver_cross_z"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/grease_blizzard",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:build_driver_grease"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/cross-z_charge",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sclash_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/evol",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:evol_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kaiser",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:nebula_steam_gun_kaiser"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/bros",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:nebula_steam_gun_hell_bros"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zi-o",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ziku_driver_zi_o"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/geiz",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ziku_driver_geiz"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/woz",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:beyondriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/barlckxs",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ziku_driver_barlckxs"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/another_zi-o",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:another_ziku_driver_zi_o"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/another_krego",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:item_alias/another_krego_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zero-one",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:hiden_zero_one_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/vulcan",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:shotriser_vulcan"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/valkyrie",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:shotriser_valkyrie"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ark-zero",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ark_driver_zero"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ragnarok",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ragnarok_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/saber",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_saber"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_1",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_blades"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_1",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_espada"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/buster",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sword_of_logos_buckle_buster"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kenzan",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sword_of_logos_buckle_kenzan"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/slash",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sword_of_logos_buckle_slash"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/calibur",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:jaken_caliburdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/saikou",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_saikou_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/falchion",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:haken_bladriver_falchion"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/revi",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:revice_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/vice",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:vice_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/live",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:two_sidriver_live"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/evil",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:two_sidriver_evil"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/jeanne",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:libera_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/lovekov",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lovekov_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:kuwagata_vistamp",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:giraffa_vistamp",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:get_over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/destream",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:destream_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/century",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:cyclotron_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/geats_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_geats"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/buffa_1",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_buffa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:brali_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_brali"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:butchi_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_butchi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:da_paan_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_da_paan"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:ginpen_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_ginpen"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:groovy_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_groovy"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:gya_go_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gya_go"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:hakubi_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_hakubi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:keirou_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_keirou"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:letter_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_letter"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:lopo_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_lopo"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:mary_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_mary"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:na_go_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_na_go"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:nudge_sparrow_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_nudge_sparrow"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:punkjack_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_punkjack"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:revi_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_revi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:shirowe_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_shirowe"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:turbon_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_turbon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:tycoon_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_tycoon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:vice_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_vice"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:seeker_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_seeker"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:chuta_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:gesshi_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm_chirami"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:discore_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_jyamato"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_keibi_riders"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_rider_core_id",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_the_end_riders"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/kekera",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:raise_riser_belt_kekera"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/beroba",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:raise_riser_belt_beroba"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/regad",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zillion_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gotchard",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gotchardriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gotchard_daybreak",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gotchardriver_daybreak"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gotcharbrothers",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gotchardriver_brother"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/majade",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:alchemisdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/valvarad_rider",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:valvaradriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/dread",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dreadriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/legend",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:legendriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gavv",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:henshin_belt_gavv"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/valen",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:valenbuckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/valen_frappe",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:vrastumgear_valen"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/vram",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:vrastumgear"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/bitter_gavv",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:henshin_belt_bitter_gavv"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/caries",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:henshin_belt_caries_gavv"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zeztz",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zeztz_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zeztz_exdream",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zeztz_exdream_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/nox",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:nox_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/dawn",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:dawn_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/lord_three",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lord_invoker_three"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/lord_five",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lord_invoker_five"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/lord_six",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:lord_invoker_six"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/metamateriam",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:metamateriam_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zeztz_darkness_nightmare",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zeztz_darkness_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/shadow_nightmare",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:shadow_nightmare_belt"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/zero",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:zeroider_control"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/my-th",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:my_th_driver"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:joker_memory",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:wdriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ooo_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ooodriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ancient_ooo",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ancient_ooodriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:cross_astroswitch",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fourze_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_gaim_core",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_gaim"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_ryugen_core",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_ryugen"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_zangetsu_core",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_zangetsu"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_bravo_core",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_bravo"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_knuckle_core",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:sengoku_driver_knuckle"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_tire",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:drivedriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_tire",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mach_driver_honoh"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:basic_tire",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mach_driver_honoh_chaser"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/fake_drive",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fake_drivedriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ghost_driver",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:ore_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ghost_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:specter_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:specter_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:necrom_damashii",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:mega_ulorder"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/gamma_superior_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_mega_ulorder_gamma_superior"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_ex_aid"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_brave"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_snipe"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_lazer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:gamer_driver_genmu"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:tank_full_bottle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:build_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_2",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_saber"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/blades",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_blades"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_2",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_espada"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:get_over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/desire_driver_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:desire_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_geats"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_tycoon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_buffa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/na-go_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_na_go"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_revi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_vice"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/seeker_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_seeker"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:jyamato_buckle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:jyamato_buckle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm_chirami"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/jyamato_rider_2",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_jyamato"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:legendriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:valvaradraw_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/ooo_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:ooodriver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:triangle_astroswitch",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fourze_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/build_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:build_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_3",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_saber"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:saber_blank_3",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_blades"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:lamp_do_alngina_wonder_ride_book",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:seiken_swordriver_espada"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:get_over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/desire_driver_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_rnd:desire_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_geats"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_tycoon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_buffa"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/na-go_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_na_go"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_revi"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_vice"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/seeker_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_seeker"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:jyamato_buckle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:jyamato_buckle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_gm_chirami"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/jyamato_rider_3",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:desire_driver_jyamato"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:valvaradraw_buckle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_4",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:square_astroswitch",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fourze_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_4",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_4",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:get_over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_5",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/fourze_5",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:fourze_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_5",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/demons_5",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:get_over_demons_driver"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_6",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kamenridercraft:blank_form",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_7",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "krc_rnd:forms/birth_7",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "kamenridercraft:proto_birth_driver"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}
